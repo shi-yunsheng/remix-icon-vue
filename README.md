@@ -20,7 +20,7 @@
 
 给图标增加 `fill` 属性，会将图标从线性图标变成填充图标。
 
-**注意：**有些图标没有对应的填充图标，具体图标可通过 [Remix Icon](https://remixicon.com/) 查看。
+**注意：** 有些图标没有对应的填充图标，具体图标可通过 [Remix Icon](https://remixicon.com/) 查看。
 
 ```vue
 <script setup lang="ts">
