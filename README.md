@@ -8,7 +8,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixWechat } from '@/remix-icon';
+  import { RemixWechat } from '../package';
 </script>
 
 <template>
@@ -24,7 +24,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixWechat } from '@/remix-icon';
+  import { RemixWechat } from '../package';
 </script>
 
 <template>
@@ -38,7 +38,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixWechat } from '@/remix-icon';
+  import { RemixWechat } from '../package';
 </script>
 
 <template>
@@ -52,7 +52,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixWechat } from '@/remix-icon';
+  import { RemixWechat } from '../package';
 </script>
 
 <template>
@@ -66,7 +66,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixLoader4 } from '@/remix-icon';
+  import { RemixLoader4 } from '../package';
 </script>
 
 <template>

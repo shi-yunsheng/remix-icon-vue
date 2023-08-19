@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { RemixAdmin, RemixWechat2 } from '../dist';
+  import { RemixAdmin, RemixWechat2 } from '../package';
 </script>
 
 <template>
