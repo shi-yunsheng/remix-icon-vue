@@ -51,3 +51,7 @@
 <template>
   <RemixFolderLock />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

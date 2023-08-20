@@ -54,3 +54,7 @@
 <template>
   <RemixPaypal />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -51,3 +51,7 @@
 <template>
   <RemixFolderMusic />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

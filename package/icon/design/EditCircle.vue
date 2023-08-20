@@ -51,3 +51,7 @@
 <template>
   <RemixEditCircle />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

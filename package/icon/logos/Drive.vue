@@ -54,3 +54,7 @@
 <template>
   <RemixDrive />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

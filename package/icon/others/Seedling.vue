@@ -51,3 +51,7 @@
 <template>
   <RemixSeedling />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

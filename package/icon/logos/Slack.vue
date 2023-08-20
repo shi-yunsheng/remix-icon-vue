@@ -51,3 +51,7 @@
 <template>
   <RemixSlack />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

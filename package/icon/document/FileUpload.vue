@@ -51,3 +51,7 @@
 <template>
   <RemixFileUpload />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

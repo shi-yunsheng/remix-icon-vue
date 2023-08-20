@@ -51,3 +51,7 @@
 <template>
   <RemixBlaze />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

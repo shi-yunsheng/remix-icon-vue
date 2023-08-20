@@ -51,3 +51,7 @@
 <template>
   <RemixHearts />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

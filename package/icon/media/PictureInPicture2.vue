@@ -57,3 +57,7 @@
 <template>
   <RemixPictureInPicture2 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

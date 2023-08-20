@@ -51,3 +51,7 @@
 <template>
   <RemixBill />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

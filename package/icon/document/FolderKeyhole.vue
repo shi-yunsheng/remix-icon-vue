@@ -57,3 +57,7 @@
 <template>
   <RemixFolderKeyhole />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

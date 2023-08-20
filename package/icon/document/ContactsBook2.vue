@@ -51,3 +51,7 @@
 <template>
   <RemixContactsBook2 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

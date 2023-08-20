@@ -51,3 +51,7 @@
 <template>
   <RemixCar />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

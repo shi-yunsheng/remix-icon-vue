@@ -51,3 +51,7 @@
 <template>
   <RemixTrainWifi />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

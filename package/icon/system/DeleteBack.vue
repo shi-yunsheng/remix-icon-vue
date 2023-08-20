@@ -51,3 +51,7 @@
 <template>
   <RemixDeleteBack />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

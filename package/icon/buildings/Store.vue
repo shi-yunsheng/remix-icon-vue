@@ -51,3 +51,7 @@
 <template>
   <RemixStore />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

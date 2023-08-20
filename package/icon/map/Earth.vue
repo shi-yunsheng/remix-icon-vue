@@ -51,3 +51,7 @@
 <template>
   <RemixEarth />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

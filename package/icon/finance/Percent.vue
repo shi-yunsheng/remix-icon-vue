@@ -51,3 +51,7 @@
 <template>
   <RemixPercent />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

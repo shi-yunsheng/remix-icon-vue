@@ -54,3 +54,7 @@
 <template>
   <RemixCheckboxMultiple />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

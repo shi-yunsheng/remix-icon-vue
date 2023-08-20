@@ -54,3 +54,7 @@
 <template>
   <RemixMedal />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

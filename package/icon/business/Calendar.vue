@@ -51,3 +51,7 @@
 <template>
   <RemixCalendar />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

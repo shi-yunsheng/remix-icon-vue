@@ -51,3 +51,7 @@
 <template>
   <RemixSdCardMini />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

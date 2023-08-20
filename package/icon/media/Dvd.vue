@@ -51,3 +51,7 @@
 <template>
   <RemixDvd />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

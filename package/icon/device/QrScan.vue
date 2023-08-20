@@ -51,3 +51,7 @@
 <template>
   <RemixQrScan />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

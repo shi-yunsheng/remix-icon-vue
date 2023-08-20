@@ -54,3 +54,7 @@
 <template>
   <RemixSpectrum />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -54,3 +54,7 @@
 <template>
   <RemixFileUnknow />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

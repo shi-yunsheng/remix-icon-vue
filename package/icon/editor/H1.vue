@@ -38,3 +38,7 @@
 <template>
   <RemixH1 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

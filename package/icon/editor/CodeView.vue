@@ -38,3 +38,7 @@
 <template>
   <RemixCodeView />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

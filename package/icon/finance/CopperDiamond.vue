@@ -51,3 +51,7 @@
 <template>
   <RemixCopperDiamond />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

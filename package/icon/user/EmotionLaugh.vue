@@ -54,3 +54,7 @@
 <template>
   <RemixEmotionLaugh />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

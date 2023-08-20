@@ -51,3 +51,7 @@
 <template>
   <RemixEqualizer />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -51,3 +51,7 @@
 <template>
   <RemixDropbox />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

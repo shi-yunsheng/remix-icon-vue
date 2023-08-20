@@ -51,3 +51,7 @@
 <template>
   <RemixFahrenheit />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

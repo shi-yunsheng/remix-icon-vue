@@ -51,3 +51,7 @@
 <template>
   <RemixVip />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

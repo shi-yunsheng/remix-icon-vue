@@ -51,3 +51,7 @@
 <template>
   <RemixArrowDropRight />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

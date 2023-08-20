@@ -2,8 +2,6 @@
 
 使用的图标来自于 [Remix Icon](https://remixicon.com/)。
 
-## 基本
-
 由于图标较多，所以并不推荐使用全局引入的方式。图标名可参考 [Remix Icon](https://remixicon.com/)，只需引入时加上前缀 “`Remix`” 。
 
 ```vue

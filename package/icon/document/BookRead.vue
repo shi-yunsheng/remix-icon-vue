@@ -51,3 +51,7 @@
 <template>
   <RemixBookRead />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

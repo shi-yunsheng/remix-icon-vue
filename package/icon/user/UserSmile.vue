@@ -51,3 +51,7 @@
 <template>
   <RemixUserSmile />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

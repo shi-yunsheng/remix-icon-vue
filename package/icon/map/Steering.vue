@@ -51,3 +51,7 @@
 <template>
   <RemixSteering />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

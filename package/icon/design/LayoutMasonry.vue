@@ -54,3 +54,7 @@
 <template>
   <RemixLayoutMasonry />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

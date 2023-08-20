@@ -54,3 +54,7 @@
 <template>
   <RemixGitlab />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

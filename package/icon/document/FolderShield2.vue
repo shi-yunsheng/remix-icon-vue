@@ -57,3 +57,7 @@
 <template>
   <RemixFolderShield2 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

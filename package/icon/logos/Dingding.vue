@@ -57,3 +57,7 @@
 <template>
   <RemixDingding />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

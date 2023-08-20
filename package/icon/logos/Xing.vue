@@ -51,3 +51,7 @@
 <template>
   <RemixXing />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -9,8 +9,9 @@ svg_dir = r"./"  # 要转换的svg路径
 to_vue_dir = r"../package/icon/"  # 生成的vue路径
 import_vue = r"../package/icon"  # 组件导入路径（即to_vue_dir文件）
 to_index_dir = r"../package/index.ts"  # 组件索引
-import_remix = r"../package/index"  # 全局文件导入路径（即to_remix_dir文件）
-to_declare_dir = r"../package/icon.d.ts"  # 类型声明
+# to_remix_dir = r"../package/remix-icon.ts" 
+import_remix = r"../package/remix-icon"  # 全局文件导入路径（即to_remix_dir文件）
+to_declare_dir = r"../package/remix-icon.d.ts"  # 类型声明
 
 
 def to_upper_camel_case(name: str) -> str:
@@ -64,6 +65,10 @@ def create_component() -> dict:
     <template>
       <{vue_prefix}_vue_name_ />
     </template>
+
+    <style lang="scss">
+      @import '../style.scss';
+    </style>
   """
 
     # 插入到模板的头部数据
@@ -157,7 +162,8 @@ def createIndex(vue_name: dict):
     for key in vue_name:
         for name in vue_name[key]:
             index_import.append(
-                f"const {vue_prefix}{name} = defineAsyncComponent(() => import('./icon/{key}/{name}.vue'));"
+                f"import {vue_prefix}{name} from './icon/{key}/{name}.vue';"
+                # f"const {vue_prefix}{name} = defineAsyncComponent(() => import('./icon/{key}/{name}.vue'));"
             )
             index_export.append(f"{vue_prefix}{name},")
 
@@ -167,12 +173,29 @@ def createIndex(vue_name: dict):
 
     # 索引文件内容
     index = f"""
-    import './style.scss';
-    import {{ defineAsyncComponent }} from 'vue';
+    
+    import type {{ App, Component }} from 'vue';
 
     {index_import}
 
-    export {{ {index_export} }};
+    const icons: {{[key: string]: Component}} = {{ {index_export} }};
+    
+    const remixIcon = {{
+      ...icons,
+      install: (app: App) => {{
+        for (const key in icons) {{
+          app.component(key, icons[key]);
+        }}
+      }},
+    }};
+
+    const install = (app: App) => {{
+      app.use(remixIcon);
+    }};
+
+    export default {{
+      install,
+    }};
   """
 
     # 写入文件

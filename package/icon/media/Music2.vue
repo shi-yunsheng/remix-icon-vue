@@ -51,3 +51,7 @@
 <template>
   <RemixMusic2 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

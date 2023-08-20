@@ -54,3 +54,7 @@
 <template>
   <RemixMarkup />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

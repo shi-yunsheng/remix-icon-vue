@@ -51,3 +51,7 @@
 <template>
   <RemixSendPlane />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

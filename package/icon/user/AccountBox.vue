@@ -51,3 +51,7 @@
 <template>
   <RemixAccountBox />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

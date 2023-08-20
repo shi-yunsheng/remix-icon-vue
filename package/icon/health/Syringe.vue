@@ -51,3 +51,7 @@
 <template>
   <RemixSyringe />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

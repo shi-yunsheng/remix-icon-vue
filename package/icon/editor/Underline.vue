@@ -38,3 +38,7 @@
 <template>
   <RemixUnderline />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

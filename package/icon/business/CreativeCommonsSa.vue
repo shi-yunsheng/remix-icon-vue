@@ -54,3 +54,7 @@
 <template>
   <RemixCreativeCommonsSa />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

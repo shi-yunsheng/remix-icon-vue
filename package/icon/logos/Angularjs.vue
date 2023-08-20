@@ -57,3 +57,7 @@
 <template>
   <RemixAngularjs />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

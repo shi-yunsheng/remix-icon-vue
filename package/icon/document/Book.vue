@@ -51,3 +51,7 @@
 <template>
   <RemixBook />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

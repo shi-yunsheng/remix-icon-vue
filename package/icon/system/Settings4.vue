@@ -51,3 +51,7 @@
 <template>
   <RemixSettings4 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

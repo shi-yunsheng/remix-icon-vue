@@ -51,3 +51,7 @@
 <template>
   <RemixUserUnfollow />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

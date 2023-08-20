@@ -51,3 +51,7 @@
 <template>
   <RemixInbox />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

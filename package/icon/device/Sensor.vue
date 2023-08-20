@@ -51,3 +51,7 @@
 <template>
   <RemixSensor />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

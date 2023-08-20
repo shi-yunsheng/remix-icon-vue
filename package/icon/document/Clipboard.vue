@@ -51,3 +51,7 @@
 <template>
   <RemixClipboard />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

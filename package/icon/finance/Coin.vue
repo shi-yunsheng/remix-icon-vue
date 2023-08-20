@@ -54,3 +54,7 @@
 <template>
   <RemixCoin />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -51,3 +51,7 @@
 <template>
   <RemixSpeaker3 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

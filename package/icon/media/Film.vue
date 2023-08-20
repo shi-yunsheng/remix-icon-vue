@@ -51,3 +51,7 @@
 <template>
   <RemixFilm />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

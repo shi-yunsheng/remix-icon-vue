@@ -51,3 +51,7 @@
 <template>
   <RemixChatUpload />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

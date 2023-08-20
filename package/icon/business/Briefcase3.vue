@@ -51,3 +51,7 @@
 <template>
   <RemixBriefcase3 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

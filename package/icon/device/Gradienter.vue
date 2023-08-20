@@ -51,3 +51,7 @@
 <template>
   <RemixGradienter />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

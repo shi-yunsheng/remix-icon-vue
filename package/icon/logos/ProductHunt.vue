@@ -54,3 +54,7 @@
 <template>
   <RemixProductHunt />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

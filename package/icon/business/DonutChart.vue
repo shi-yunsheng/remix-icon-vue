@@ -51,3 +51,7 @@
 <template>
   <RemixDonutChart />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

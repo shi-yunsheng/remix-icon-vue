@@ -51,3 +51,7 @@
 <template>
   <RemixShip />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

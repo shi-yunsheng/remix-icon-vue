@@ -51,3 +51,7 @@
 <template>
   <RemixNotification2 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

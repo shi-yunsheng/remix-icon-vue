@@ -51,3 +51,7 @@
 <template>
   <RemixSunCloudy />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

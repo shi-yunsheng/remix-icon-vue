@@ -51,3 +51,7 @@
 <template>
   <RemixSignalWifiError />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

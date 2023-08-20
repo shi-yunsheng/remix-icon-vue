@@ -51,3 +51,7 @@
 <template>
   <RemixHotel />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

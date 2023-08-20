@@ -51,3 +51,7 @@
 <template>
   <RemixStethoscope />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

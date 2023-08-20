@@ -51,3 +51,7 @@
 <template>
   <RemixCameraSwitch />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -54,3 +54,7 @@
 <template>
   <RemixEarthquake />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

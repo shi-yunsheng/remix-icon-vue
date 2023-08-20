@@ -57,3 +57,7 @@
 <template>
   <RemixFolderShared />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -51,3 +51,7 @@
 <template>
   <RemixPrinter />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

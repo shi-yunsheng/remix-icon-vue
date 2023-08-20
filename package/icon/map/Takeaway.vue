@@ -57,3 +57,7 @@
 <template>
   <RemixTakeaway />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

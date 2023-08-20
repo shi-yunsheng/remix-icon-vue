@@ -51,3 +51,7 @@
 <template>
   <RemixShieldFlash />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

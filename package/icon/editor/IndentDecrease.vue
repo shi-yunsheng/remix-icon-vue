@@ -38,3 +38,7 @@
 <template>
   <RemixIndentDecrease />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

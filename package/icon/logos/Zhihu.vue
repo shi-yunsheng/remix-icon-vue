@@ -54,3 +54,7 @@
 <template>
   <RemixZhihu />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

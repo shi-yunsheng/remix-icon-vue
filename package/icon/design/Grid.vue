@@ -51,3 +51,7 @@
 <template>
   <RemixGrid />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

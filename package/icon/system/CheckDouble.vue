@@ -51,3 +51,7 @@
 <template>
   <RemixCheckDouble />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

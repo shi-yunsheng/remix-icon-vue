@@ -51,3 +51,7 @@
 <template>
   <RemixBug />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

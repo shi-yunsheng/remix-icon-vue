@@ -54,3 +54,7 @@
 <template>
   <RemixHomeHeart />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

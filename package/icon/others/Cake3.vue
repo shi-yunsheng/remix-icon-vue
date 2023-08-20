@@ -57,3 +57,7 @@
 <template>
   <RemixCake3 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -51,3 +51,7 @@
 <template>
   <RemixDoorClosed />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

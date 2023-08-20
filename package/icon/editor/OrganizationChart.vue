@@ -38,3 +38,7 @@
 <template>
   <RemixOrganizationChart />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

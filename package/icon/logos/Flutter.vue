@@ -54,3 +54,7 @@
 <template>
   <RemixFlutter />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

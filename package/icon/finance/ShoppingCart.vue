@@ -51,3 +51,7 @@
 <template>
   <RemixShoppingCart />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -51,3 +51,7 @@
 <template>
   <RemixPriceTag />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

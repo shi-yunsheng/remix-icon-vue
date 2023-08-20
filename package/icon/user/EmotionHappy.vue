@@ -51,3 +51,7 @@
 <template>
   <RemixEmotionHappy />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

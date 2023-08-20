@@ -54,3 +54,7 @@
 <template>
   <RemixClockwise2 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

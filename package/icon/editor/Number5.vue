@@ -38,3 +38,7 @@
 <template>
   <RemixNumber5 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

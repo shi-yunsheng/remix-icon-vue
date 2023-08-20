@@ -51,3 +51,7 @@
 <template>
   <RemixRoadster />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

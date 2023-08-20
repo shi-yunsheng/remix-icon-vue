@@ -51,3 +51,7 @@
 <template>
   <RemixKeynote />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

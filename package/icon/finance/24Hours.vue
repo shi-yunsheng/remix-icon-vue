@@ -51,3 +51,7 @@
 <template>
   <Remix24Hours />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

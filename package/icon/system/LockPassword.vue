@@ -51,3 +51,7 @@
 <template>
   <RemixLockPassword />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

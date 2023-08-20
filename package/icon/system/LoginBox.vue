@@ -51,3 +51,7 @@
 <template>
   <RemixLoginBox />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

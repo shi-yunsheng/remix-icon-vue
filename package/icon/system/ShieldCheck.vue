@@ -51,3 +51,7 @@
 <template>
   <RemixShieldCheck />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

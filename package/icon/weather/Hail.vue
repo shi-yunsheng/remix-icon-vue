@@ -51,3 +51,7 @@
 <template>
   <RemixHail />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

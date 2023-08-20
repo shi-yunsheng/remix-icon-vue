@@ -51,3 +51,7 @@
 <template>
   <RemixAccountPinBox />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

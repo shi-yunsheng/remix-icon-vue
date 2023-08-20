@@ -38,3 +38,7 @@
 <template>
   <RemixAlignJustify />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

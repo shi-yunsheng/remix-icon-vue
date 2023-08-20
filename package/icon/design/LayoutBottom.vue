@@ -54,3 +54,7 @@
 <template>
   <RemixLayoutBottom />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

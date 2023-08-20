@@ -54,3 +54,7 @@
 <template>
   <RemixDualSim1 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

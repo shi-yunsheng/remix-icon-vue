@@ -51,3 +51,7 @@
 <template>
   <RemixRecycle />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

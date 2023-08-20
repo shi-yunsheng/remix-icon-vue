@@ -51,3 +51,7 @@
 <template>
   <RemixContrastDrop />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -54,3 +54,7 @@
 <template>
   <RemixSpam />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

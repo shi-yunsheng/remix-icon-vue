@@ -54,3 +54,7 @@
 <template>
   <RemixDiscord />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

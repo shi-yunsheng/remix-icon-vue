@@ -51,3 +51,7 @@
 <template>
   <RemixHome8 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

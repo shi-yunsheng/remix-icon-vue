@@ -51,3 +51,7 @@
 <template>
   <RemixDoorOpen />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

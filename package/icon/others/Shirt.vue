@@ -54,3 +54,7 @@
 <template>
   <RemixShirt />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

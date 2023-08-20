@@ -51,3 +51,7 @@
 <template>
   <RemixCpu />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

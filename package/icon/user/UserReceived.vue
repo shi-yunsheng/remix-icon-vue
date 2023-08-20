@@ -51,3 +51,7 @@
 <template>
   <RemixUserReceived />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

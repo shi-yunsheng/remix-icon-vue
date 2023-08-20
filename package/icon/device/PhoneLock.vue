@@ -51,3 +51,7 @@
 <template>
   <RemixPhoneLock />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

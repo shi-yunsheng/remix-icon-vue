@@ -54,3 +54,7 @@
 <template>
   <RemixSafari />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>

@@ -38,3 +38,7 @@
 <template>
   <RemixStrikethrough2 />
 </template>
+
+<style lang="scss">
+  @import '../style.scss';
+</style>
