@@ -4,15 +4,42 @@
 
 由于图标较多，所以并不推荐使用全局引入的方式。图标名可参考 [Remix Icon](https://remixicon.com/)，只需引入时加上前缀 “`Remix`” 。
 
+**按需引用（推荐）**
+
 ```vue
+// main.ts
+import { createApp } from 'vue';
+import App from './App.vue';
+import '../dist/style.css';
+
+const app = createApp(App);
+app.mount('#app');
+
+// component.vue
 <script setup lang="ts">
-  import { RemixWechat } from '../package';
+  import { RemixWechat } from '../dist/remix-icon';
 </script>
 
 <template>
   <div> 只是一个微信图标<remix-wechat />。 </div>
 </template>
 ```
+
+**全局引入（不推荐）**
+
+```vue
+// main.ts
+import { createApp } from 'vue';
+import App from './App.vue';
+import '../dist/style.css';
+import RemixIcon from '../dist';
+
+const app = createApp(App);
+app.use(RemixIcon);
+app.mount('#app');
+```
+
+
 
 ## 填充
 
@@ -22,7 +49,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixWechat } from '../package';
+  import { RemixWechat } from '../package/remix-icon';
 </script>
 
 <template>
@@ -36,7 +63,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixWechat } from '../package';
+  import { RemixWechat } from '../package/remix-icon';
 </script>
 
 <template>
@@ -50,7 +77,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixWechat } from '../package';
+  import { RemixWechat } from '../package/remix-icon';
 </script>
 
 <template>
@@ -64,7 +91,7 @@
 
 ```vue
 <script setup lang="ts">
-  import { RemixLoader4 } from '../package';
+  import { RemixLoader4 } from '../package/remix-icon';
 </script>
 
 <template>
